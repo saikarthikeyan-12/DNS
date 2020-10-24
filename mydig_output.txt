@@ -1,0 +1,59 @@
+;; QUESTION SECTION:
+Google.com. IN A
+;; ANSWER SECTION
+Google.com. 300 IN A 172.217.11.46
+;; WHEN: Wed September 23 17:48:18 2020
+;; Query time:  190.29msec
+;; MSG SIZE  rcvd: 96
+
+;; QUESTION SECTION:
+Google.com. IN NS
+;; ANSWER SECTION
+Google.com. 345600 IN NS ns4.Google.com.
+Google.com. 345600 IN NS ns1.Google.com.
+Google.com. 345600 IN NS ns2.Google.com.
+Google.com. 345600 IN NS ns3.Google.com.
+;; WHEN: Wed September 23 17:48:37 2020
+;; Query time:  194.05msec
+;; MSG SIZE  rcvd: 96
+
+;; QUESTION SECTION:
+Google.com. IN MX
+;; ANSWER SECTION
+Google.com. 600 IN MX 30 alt2.aspmx.l.Google.com.
+Google.com. 600 IN MX 50 alt4.aspmx.l.Google.com.
+Google.com. 600 IN MX 20 alt1.aspmx.l.Google.com.
+Google.com. 600 IN MX 40 alt3.aspmx.l.Google.com.
+Google.com. 600 IN MX 10 aspmx.l.Google.com.
+;; WHEN: Wed September 23 17:48:26 2020
+;; Query time:  189.07msec
+;; MSG SIZE  rcvd: 96
+
+
+;; QUESTION SECTION:
+www.cnn.com. IN A
+;; ANSWER SECTION
+turner-tls.map.fastly.net. 30 IN A 151.101.209.67
+;; WHEN: Wed September 23 17:49:16 2020
+;; Query time:  327.20msec
+;; MSG SIZE  rcvd: 96
+
+;; QUESTION SECTION:
+www.cnn.com. IN NS
+;; ANSWER SECTION
+www.cnn.com. 300 IN CNAME turner-tls.map.fastly.net.
+;; WHEN: Wed September 23 17:49:33 2020
+;; Query time:  200.56msec
+;; MSG SIZE  rcvd: 96
+
+;; QUESTION SECTION:
+www.cnn.com. IN MX
+;; ANSWER SECTION
+www.cnn.com. 300 IN CNAME turner-tls.map.fastly.net.
+;; WHEN: Wed September 23 17:49:28 2020
+;; Query time:  201.51msec
+;; MSG SIZE  rcvd: 96
+
+
+
+

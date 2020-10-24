@@ -1,0 +1,27 @@
+python dnssec.py verisigninc.com A
+verisigninc.com. 3600 IN A 72.13.63.55
+verisigninc.com. 3600 IN RRSIG A 8 2 3600 20201023165556 20200923165556 63484 verisigninc.com. W47c7mCmMozvCJ+GjrATds8zY/bR3Hmw edAo1Zw3Q5sJwuKh31rvsHNMeb/cJTOV QEJt3x0F2nH81wczLuxVfZvzcCj1uoGo wEkDITLDGnqr8iwNvMU49jrmKGn3CN6M Be+/CnsdhBS3E07rvE8riyB7eZt/FouN fXK1nODELrw=
+
+python dnssec.py verisigninc.com MX
+verisigninc.com. 300 IN MX 10 mail5.verisign.com.
+verisigninc.com. 300 IN MX 10 mail1.verisign.com.
+verisigninc.com. 300 IN MX 10 mail3.verisign.com.
+verisigninc.com. 300 IN MX 10 mail6.verisign.com.
+verisigninc.com. 300 IN MX 10 mail2.verisign.com.
+verisigninc.com. 300 IN MX 10 mail4.verisign.com.
+verisigninc.com. 300 IN RRSIG MX 8 2 300 20201023165556 20200923165556 63484 verisigninc.com. jQnN6wxi1YA//ql4/X1Xf6E1INwzEmG1 IM/dyD9PBnfPTZuOdbYkQo8aVak27nKw Zi3832a05rbrdDaigQHMpKv5MBb27+DE NsUU+QLj61Vd7yJJKFpM3zNSI+0ZGka+ 1GGZfg5Li2nz1k4z7X6e/es1JN/FDUmO 0qOYRxmyHE8=
+
+python dnssec.py verisigninc.com NS
+verisigninc.com. 86400 IN NS av4.nstld.com.
+verisigninc.com. 86400 IN NS av2.nstld.com.
+verisigninc.com. 86400 IN NS av1.nstld.com.
+verisigninc.com. 86400 IN NS av3.nstld.com.
+verisigninc.com. 86400 IN RRSIG NS 8 2 86400 20201023165556 20200923165556 63484 verisigninc.com. beJQ26bLCBYYr2qv9hqz9DvShXSes5bg It/xR6H4Vm2CVxmybeC3SG348Hb/1zfc v9tOFf1t4P2bFbdrA7N9D1MXM/U3PxRC dmaVHNcpYUJ6MCXO0rimeKec8l9HE4Ql Bv9yFxB0KJ136k34VkstdNgFK+QbiI1+ zolGcrDflsc=
+
+
+python dnssec.py Amazon.com A
+DNSSEC not supported
+
+
+python dnssec.py www.dnssec-failed.org A
+DNSSec verification failed
